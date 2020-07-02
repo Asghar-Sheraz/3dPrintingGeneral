@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff09 scene
 //Name: zackPointOne.ma
-//Last modified: Thu, Jul 02, 2020 05:01:49 PM
+//Last modified: Thu, Jul 02, 2020 05:03:18 PM
 //Codeset: 1252
 requires maya "2018ff09";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "3.2.0.1";
@@ -14,8 +14,8 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 createNode transform -s -n "persp";
 	rename -uid "AFF5AB56-473C-FD90-48B3-51A09B12C244";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 8.3356622194410086 4.1078223046652695 8.2491815423520727 ;
-	setAttr ".r" -type "double3" -20.73835272487948 51.800000000001539 2.571564928080155e-15 ;
+	setAttr ".t" -type "double3" 17.751416296061009 5.8357864878528565 7.633113973885699 ;
+	setAttr ".r" -type "double3" -17.738352724880819 68.600000000002169 0 ;
 	setAttr ".rp" -type "double3" 8.8817841970012523e-16 0 -4.4408920985006262e-16 ;
 	setAttr ".rpt" -type "double3" 5.115303276427011e-17 -1.3588901927500789e-16 5.8517346950566561e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -23,7 +23,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
 	setAttr ".ncp" 0.01;
-	setAttr ".coi" 14.83209331804958;
+	setAttr ".coi" 22.910055275115695;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
